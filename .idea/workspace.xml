@@ -14,11 +14,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="IndexController.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="IndexController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/module/Application/src/Controller/IndexController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="41" selection-start-line="41" selection-end-line="52" selection-end-column="30" />
+            <state relative-caret-position="450">
+              <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
               <folding>
                 <element signature="e#315#367#0#PHP" expanded="true" />
               </folding>
@@ -77,7 +77,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Lesson.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Lesson.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/module/Application/src/Entity/Lesson.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
@@ -153,11 +153,11 @@
         <option value="$PROJECT_DIR$/module/Application/src/Entity/Lesson.php" />
         <option value="$PROJECT_DIR$/module/Application/src/Entity/Question.php" />
         <option value="$PROJECT_DIR$/module/Application/src/Entity/Answer.php" />
-        <option value="$PROJECT_DIR$/module/Application/src/Controller/IndexController.php" />
         <option value="$PROJECT_DIR$/module/Application/src/Service/Lesson/Factory/LessonManagerFactory.php" />
         <option value="$PROJECT_DIR$/module/Application/src/Service/Lesson/LessonManager.php" />
         <option value="$PROJECT_DIR$/module/Application/src/Repositories/LessonRepository.php" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/module/Application/src/Controller/IndexController.php" />
       </list>
     </option>
   </component>
@@ -554,12 +554,12 @@
       <updated>1541452100416</updated>
       <workItem from="1541452101718" duration="9375000" />
       <workItem from="1541500670907" duration="36340000" />
-      <workItem from="1541583057986" duration="5511000" />
+      <workItem from="1541583057986" duration="5775000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51226000" />
+    <option name="totallyTimeSpent" value="51490000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -572,6 +572,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-3" y="-1" width="1926" height="1057" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25506938" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32901832" />
@@ -897,39 +898,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/module/Application/src/Repositories/UserRepository.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="5" selection-start-column="5" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/module/Application/src/Service/Lesson/LessonManager.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="481">
           <caret line="49" column="29" lean-forward="true" selection-start-line="49" selection-start-column="29" selection-end-line="49" selection-end-column="29" />
           <folding>
             <element signature="e#126#156#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module/Application/src/Repositories/LessonRepository.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-89">
-          <caret line="33" column="37" selection-start-line="33" selection-start-column="37" selection-end-line="33" selection-end-column="37" />
-          <folding>
-            <element signature="e#123#153#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module/Application/src/Controller/IndexController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="41" selection-start-line="41" selection-end-line="52" selection-end-column="30" />
-          <folding>
-            <element signature="e#315#367#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -964,6 +938,33 @@
           <caret line="17" column="69" selection-start-line="17" selection-start-column="69" selection-end-line="17" selection-end-column="69" />
           <folding>
             <element signature="e#117#165#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/Application/src/Repositories/UserRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="5" selection-start-column="5" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/Application/src/Repositories/LessonRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-89">
+          <caret line="33" column="37" selection-start-line="33" selection-start-column="37" selection-end-line="33" selection-end-column="37" />
+          <folding>
+            <element signature="e#123#153#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/Application/src/Controller/IndexController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+          <folding>
+            <element signature="e#315#367#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>

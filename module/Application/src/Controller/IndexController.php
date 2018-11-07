@@ -39,18 +39,7 @@ class IndexController extends AbstractActionController
 
     public function indexAction()
     {
-//        $current_user = $this->plugin(CurrentUserPlugin::class);
-//        Debug::dump($this->ticketManager->getAllTickets());
-        /**
-         * @var LessonRepository $users
-         */
-        $users = $this->entityManager->getRepository(Lesson::class);
-        Debug::dump($users->getQuestionsByLessonId(1));
 
-//        $users[0]->setLogin('alex_kruze');
-//        $this->entityManager->persist($users[0]);
-//        $this->entityManager->flush();
-//        Debug::dump($users);
         return new ViewModel();
     }
 }
